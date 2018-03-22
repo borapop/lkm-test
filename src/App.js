@@ -13,7 +13,7 @@ import './App.css'
 const client = new ApolloClient({
   // By default, this client will send queries to the
   //  `/graphql` endpoint on the same host
-  link: new HttpLink({ uri: 'http://localhost:60000/simple/v1/cjf2amadl000f01473t3d0sxs' }),
+  link: new HttpLink({ uri: 'https://api.graph.cool/simple/v1/cjf2mwbfi0ooc01333dco3tfr' }),
   cache: new InMemoryCache()
 })
 
