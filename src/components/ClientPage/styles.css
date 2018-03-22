@@ -2,6 +2,7 @@
   padding-top: 20px;
   padding-left: 20px;
   overflow: scroll;
+  flex: 1;
 }
 
 .client-fullname {
@@ -53,7 +54,6 @@
   margin: 0px;
   margin-top: 10px;
   padding: 0px;
-  overflow-y: scroll;
 }
 
 .client-visits-item:nth-child(2n) {
