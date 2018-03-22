@@ -1,0 +1,41 @@
+.new-client-container {
+  padding-top: 35px;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.close-new-client {
+  cursor: pointer;
+  margin-left: 15px;
+  color: blue;
+}
+
+.new-client-input-label {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.new-client-input {
+  font-family: Roboto;
+  font-size: 18px;
+  border: none;
+  border-bottom: 2px solid gray;
+  outline: none;
+}
+
+.new-client-input:focus {
+  border-bottom: 2px solid blue;
+}
+
+.add-client-button {
+  cursor: pointer;
+  color: blue;
+  margin-top: 10px;
+  padding: 10px 0px;
+}
+
+.add-client-grayed-out {
+  color: lightgray;
+}

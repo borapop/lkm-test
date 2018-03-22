@@ -1,0 +1,67 @@
+.client-page-container {
+  padding-top: 20px;
+  padding-left: 20px;
+  overflow: scroll;
+}
+
+.client-fullname {
+  font-size: 32px;
+}
+
+.add-visit {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.add-visit-button {
+  margin-top: 10px;
+  color: blue;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.grayed-out {
+  color: lightgray;
+}
+
+.add-visit-title, .visits-title {
+  color: #999;
+}
+
+.input-label {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.add-visit-date, .add-visit-time {
+  user-select: all;
+  outline: none;
+  font-family: Roboto;
+  font-size: 18px;
+  color: blue;
+  border: none;
+  border-bottom: 2px solid gray;
+  max-width: 200px;
+}
+
+.client-visits {
+  list-style: none;
+  margin: 0px;
+  margin-top: 10px;
+  padding: 0px;
+  overflow-y: scroll;
+}
+
+.client-visits-item:nth-child(2n) {
+  background-color: #ffffdd;
+}
+
+.client-visits-item {
+  cursor: pointer;
+  margin: none;
+  padding: 10px 10px;
+}

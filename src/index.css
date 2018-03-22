@@ -1,0 +1,22 @@
+#root {
+  border: 1px solid black;
+  flex: 1;
+  display: flex;
+}
+
+
+
+html {
+  height: 100%;
+  width: 100%;
+  user-select: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  font-family: Roboto;
+  height: 100%;
+  width: 100%;
+}
